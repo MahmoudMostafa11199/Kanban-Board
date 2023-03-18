@@ -2,9 +2,12 @@
 
 ## This is a second project from Kalbonyan Elmarsos Competition.
 
-![mobile-Preview1]()
+![alt text]()
+![alt text]()
 
-![mobile-live-Preview]()
+<!-- ![mobile-Preview1]()
+
+![mobile-live-Preview]() -->
 
 [Live Demo]() .
 
