@@ -1,0 +1,185 @@
+html {
+  font-size: 62.5%;
+  font-family: "Open Sans", sans-serif;
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #147663;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+header {
+  padding: 10rem 0 5rem;
+  max-width: 130rem;
+  margin: 0 auto;
+  text-align: center;
+}
+
+h1 {
+  font-size: 3.4rem;
+  color: #eee;
+}
+
+.container {
+  max-width: 120rem;
+  margin: 0 auto;
+  background-color: #009578;
+  padding: 4rem 1rem;
+  border-radius: 1rem;
+
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 4rem;
+}
+
+.drag {
+  display: flex;
+  flex-direction: column;
+  row-gap: 3rem;
+}
+
+.drag-title {
+  font-size: 4rem;
+  color: #fff;
+  user-select: none;
+}
+
+.drag-items {
+  display: flex;
+  flex-direction: column;
+  row-gap: 0.6rem;
+  min-height: 1rem;
+}
+
+.drag-item {
+  background-color: #fff;
+  padding: 1rem;
+  min-height: 1.9rem;
+  border-radius: 0.4rem;
+  position: relative;
+  cursor: move;
+
+  display: flex;
+  align-items: center;
+}
+
+.complete::before {
+  content: "complete write the task";
+  font-size: 1.2rem;
+  text-transform: capitalize;
+  position: absolute;
+  top: -34px;
+  left: 22px;
+  width: 15rem;
+  padding: 0.4rem;
+  background-color: #fff;
+  border-radius: 0.6rem;
+  text-align: center;
+  box-shadow: 0 0.6rem 2.6rem rgb(0 0 0 / 30%);
+}
+
+.complete::after {
+  content: "";
+  position: absolute;
+  top: -10px;
+  left: 65px;
+  border-width: 1rem;
+  border-style: solid;
+  border-color: #fff transparent transparent transparent;
+  /*box-shadow: 0 0.6rem 1.6rem rgb(0 0 0 / 30%);*/
+}
+
+.drag--mark {
+  font-size: 1.2rem;
+}
+
+.drag-text {
+  font-size: 1.6rem;
+  border: none;
+  outline: none;
+}
+
+.drag-text::first-letter {
+  text-transform: uppercase;
+}
+
+.icons {
+  position: absolute;
+  top: 50%;
+  right: 1rem;
+  transform: translateY(-50%);
+  display: flex;
+  column-gap: 0.6rem;
+}
+
+.icon {
+  font-size: 1.6rem;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.icon-trash:hover {
+  color: #f00;
+}
+
+.icon-edit:hover {
+  color: #003ee7;
+}
+
+.btn--add--task {
+  font-size: 1.6rem;
+  height: 4rem;
+  background-color: #008166;
+  color: #fff;
+  cursor: pointer;
+  border: none;
+  margin-top: -2rem;
+  border-radius: 0.4rem;
+}
+
+.dragging {
+  opacity: 0.5;
+}
+
+.kanban__dropZone {
+  height: 1rem;
+  transition: background-color 0.3s;
+}
+
+.kanban__dropZone--active {
+  height: 2rem;
+  background-color: rgba(0, 0, 0, 0.25);
+}
+
+.copyright {
+  padding: 5rem 0 1rem;
+  max-width: 130rem;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.copyright p {
+  font-size: 1.4rem;
+  color: #ddd;
+}
+
+.copyright a:link,
+.copyright a:visited {
+  color: #ddd;
+  text-decoration: none;
+  transition: all 0.3s;
+  border-bottom: 1px solid transparent;
+}
+
+.copyright a:hover,
+.copyright a:active {
+  color: #fff;
+  border-bottom: 1px solid #fff;
+}
