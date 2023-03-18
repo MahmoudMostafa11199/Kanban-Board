@@ -2,8 +2,8 @@
 
 ## This is a second project from Kalbonyan Elmarsos Competition.
 
-![alt text]()
-![alt text]()
+![alt text](https://github.com/MahmoudMostafa11199/Kanban-Board/blob/main/assets/kanban--board--desktop.png)
+![alt text](https://github.com/MahmoudMostafa11199/Kanban-Board/blob/main/assets/kanban--board--phone.png)
 
 <!-- ![mobile-Preview1]()
 
