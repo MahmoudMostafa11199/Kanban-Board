@@ -40,9 +40,11 @@ h1 {
 }
 
 .drag {
+  padding: 1rem;
   display: flex;
   flex-direction: column;
   row-gap: 3rem;
+  position: relative;
 }
 
 .drag-title {

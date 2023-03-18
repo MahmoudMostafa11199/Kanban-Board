@@ -20,6 +20,20 @@
   .drag {
     padding: 1rem;
     border: 1px dashed #fff;
+    border-radius: 1rem;
+  }
+
+
+  .drag:nth-child(1) {
+    border-left: 3px solid #f00;
+  }
+
+  .drag:nth-child(2) {
+    border-left: 3px solid #ff0;
+  }
+
+  .drag:nth-child(3) {
+    border-left: 3px solid #0f0;
   }
 }
 
@@ -30,7 +44,7 @@
   .container {
     grid-template-columns: 1fr;
     row-gap: 6rem;
-    max-height: 56.2rem;
+    max-height: 60rem;
     overflow-y: scroll;
   }
 
