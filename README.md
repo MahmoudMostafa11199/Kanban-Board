@@ -9,7 +9,7 @@
 
 ![mobile-live-Preview]() -->
 
-[Live Demo](https://mahmoudmostafa11199.github.io/Kanban-Board/) .
+[Live Demo](https://kanban-board-site.netlify.app/) .
 
 ---
 
